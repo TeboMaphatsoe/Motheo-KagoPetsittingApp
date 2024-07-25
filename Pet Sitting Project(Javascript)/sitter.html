@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Sitter Details</title>
+    <link rel="stylesheet" href="sitter.css">
+    <script src="https://kit.fontawesome.com/408b0a1e7b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="smaller-container">
+            <img src="images/Brown Abstract Pet Shop Free Logo (1).svg" alt="" class="img_class">
+            <h2>Pet Sitter Details</h2>
+            <hr><br>
+          
+        <label ><b>Title :</b></label>
+        <select  id="titleId">
+            <option value="Mr.">Mr.</option>
+            <option value="Mrs.">Mrs.</option>
+            <option value="Miss.">Miss.</option>
+            <option value="Dr.">Dr.</option>
+        </select>
+        <br><br>
+        <div class="row">
+            <input type="text" id="inputFname"  placeholder="First Name"><br>
+        </div>
+
+        <div class="row1">
+            <input type="text" id="inputName"  placeholder="Last Name"><br>
+        </div>
+        
+        <div class="row2">
+            <input type="text" id="inputAge"  placeholder="Age"><br>
+        </div>
+
+        <label ><b>Race :</b></label>
+        <select  id="raceId">
+            <option value="African">African</option>
+            <option value="White">White</option>
+            <option value="Indian">Indian</option>
+            <option value="Colored">Colored</option>
+        </select>
+        <br><br>
+
+        <!--gender-->
+        <label ><b>Gender :</b></label>
+        <select  id="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+        <br><br>
+
+        <div class="row4">
+            <input type="number" id="inputContact"  placeholder="Contact No"><br>
+        </div>
+
+        <div class="textboxDiv">
+            <label ><b>Introduce yourself and why you enjoy being with pets:</b></label><br><br>
+            <input type="text" class="textbox" id="myTextbox" placeholder="eg. Im a pet lover and I love pets as they absolutely adorable." >
+        </div>
+
+        <div class="buttons">
+            <button id="btnSubmit">Submit</button>
+            <button id="Delete">Delete</button>
+        </div>
+
+    </div>
+    <div class="popup" id="popId">
+        <img src="images/checked.jpg" alt="">
+        <h2>Thank You!</h2>
+        <p>Your details has been successfully submitted. Thanks!</p>
+        <button type="button" >OK</button>
+        
+    </div>
+    
+    <footer>
+       
+        <button id="exploreButton">
+            <i class="fa-brands fa-wpexplorer"></i>
+        </button>
+       
+    </footer>
+    </div>
+    <!--Scripts-->
+    <script src="app.js"></script>
+    <script type="module" src="sitter.js" defer></script>
+    <script scr="sitter.js"></script>
+</body>
+</html>

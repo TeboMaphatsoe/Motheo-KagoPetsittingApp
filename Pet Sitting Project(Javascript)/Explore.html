@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore</title>
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <link rel="stylesheet" href="explore.css">
+</head>
+<body>
+    <header>
+
+        <nav >
+        <ul class="nav_bar2">
+          <li class="logo"> <a href="#"><img src="images/Brown Abstract Pet Shop Free Logo (1).svg" alt=""></a></li>
+        
+      </nav>
+    
+</header>
+
+   <section class="swiper mySwiper">
+    <div class="swiper-wrapper" >
+
+        <div class="swiper-slide">
+            <img src="images/cat fe3.jpg" class="img" alt="" />
+            <div class="image-date">
+                <span class="text">We’ll make sure your pet has plenty of fun while you’re away.</span>
+                <h1>Yaay, We Love Your Pet!</h1>
+              
+                
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <img src="images/dog sitter.jpg" class="img1" alt="" />
+            <div class="image-date">
+                <span class="text">We’ll make sure your pet has plenty of fun while you’re away.</span>
+                <h1>Yaay, We Love Your Pet!</h1>   
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <img src="images/R (1).jpg" class="img1" alt="" />
+            <div class="image-date">
+                <span class="text">We’ll make sure your pet has plenty of fun while you’re away.</span>
+                <h1>Yaay, We Love Your Pet!</h1>   
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <img src="images/R (3).jpg" class="img1" alt="" />
+            <div class="image-date">
+                <span class="text">We’ll make sure your pet has plenty of fun while you’re away.</span>
+                <h1>Yaay, We Love Your Pet!</h1>   
+            </div>
+        </div>
+ 
+
+    </div>
+    <div class="swiper-button-next nav-bnt" ></div>
+    <div class="swiper-button-prev nav-bnt"></div>
+    <div class="swiper-pagination"></div>
+
+    
+   </section>
+   <div class="btns">
+    <button id="button">Become A Sitter</button>
+    <button id="button1">Pet Registration</button>
+
+</div>
+
+<span class="image-container">
+    <div>
+        <img src="images/cute-domestic-pets-free-vector.jpg" alt="">
+        <div><h3>Pet-Sitting</h3></div>
+    </div>
+    
+    <div>
+        <img src="images/grooming-for-pets-girl-cuts-the-dog-on-the-table-illustration-in-flat-style-cartoon-vector.jpg" alt="">
+        <div><h3>Grooming</h3></div>
+    </div>
+
+    <div>
+        <img src="images/zlo72g3d.png" alt="">
+        <div><h3>Training</h3></div>
+    </div>
+
+    <div><br><br>
+        <img src="images/pet-sitter-woman-with-group-of-dogs-vector-42549364.jpg" alt=""><br><br>
+        <div><h3>Pet-Walking</h3></div>
+    </div>
+</span>
+
+<script src="app.js"></script>
+   <script src="/explore.js"></script>
+    <script src="swiper-bundle.min.js"></script>
+    
+        <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+</html>

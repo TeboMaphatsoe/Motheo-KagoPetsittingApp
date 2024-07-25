@@ -1,0 +1,47 @@
+{
+    "name":"Motheo & Kago PetServices",
+    "short_name": "Motheo&Kago",
+    "start_url":"/index.html",
+    "display":"standalone",
+    "background_color": "#ffffff60",
+    "theme_color": "#FF6E00",
+    "orientation":"portrait-primary",
+    "scope": ".",
+    "icons":[{
+        "src":"/images/Brown Abstract Pet Shop Free Logo (144 x 144 px).png",
+        "sizes":"144x144",
+        "type":"image/png"
+    },
+    {
+        "src":"/images/Brown Abstract Pet Shop Free Logo (192 x 192 px).png",
+        "sizes":"192x192",
+        "type":"image/png"
+    },
+        {
+        "src":"/images/Brown Abstract Pet Shop Free Logo (512 x 512 px).png",
+        "sizes":"512x512",
+        "type":"image/png"
+    }
+            
+    ],
+    "screenshots": [
+        {
+            "src": "/images/Brown Abstract Pet Shop Free Logo (512 x 512 px).png",
+             "sizes": "512x512",
+             "type": "image/png",
+             "form_factor": "narrow",
+             "label": "PetServices"
+           },
+        {
+         "src": "/images/Brown Abstract Pet Shop Free Logo (512 x 512 px).png",
+          "sizes": "512x512",
+          "type": "image/png",
+          "form_factor": "wide",
+          "label": "PetServices"
+        }
+    ]
+
+    
+
+                
+}

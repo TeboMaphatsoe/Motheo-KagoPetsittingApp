@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CustomerStyles.css">
+    <script src="https://kit.fontawesome.com/408b0a1e7b.js" crossorigin="anonymous"></script>
+   
+
+</head>
+<body>
+    
+    <header>
+
+        <nav >
+        <ul class="nav_bar2">
+          <li class="logo"> <a href="#"><img src="images/Brown Abstract Pet Shop Free Logo (1).svg" alt=""></a></li>
+        
+      </nav>
+    
+</header>
+
+    <div class="Customer_details">
+        <h2>Customer Details</h2>
+        <hr>
+        <br>
+        <div class="row">
+            <input type="text" id="petownerId" class="inputText" placeholder="Pet Owner"><br><br>
+        </div>
+
+        <div class="row2">
+            <input type="text" id="typeOfpetId"  class="inputText" placeholder="Type of Pet"><br>
+        </div>
+        
+        <div class="row3">
+            <input type="text" id="addressId" class="inputText" placeholder="Address"><br>
+        </div>
+
+        <div class="row4">
+            <input type="datetime" id="dateTimeId" class="inputText" placeholder="Date & Time"><br>
+        </div>
+        
+       <div class="row5">
+        <input type="text" id="durationId" class="inputText" placeholder="Duration">
+       </div>
+
+       <div class="row13">
+        <input type="number" id="contactId" class="inputText" placeholder="Contact Number">
+       </div>
+       
+        <br><br>
+      
+    </div>
+       
+    
+
+    <div class="Pet_Details">
+        <h2>Pet Details</h2>
+        <hr><br>
+        <div class="row6">
+            <input type="text" id="petNameId" class="inputText" placeholder="Pet's Name"><br>
+        </div>
+
+        <div class="row7">
+            <input type="text" id="ageId" class="inputText" placeholder="Age"><br>
+        </div>
+
+        <div class="row8">
+            <input type="text" id="sexId" class="inputText" placeholder="Sex"><br>
+        </div>
+        
+        
+        <div class="row9">
+            <input type="text" id="speciesId" class="inputText" placeholder="Species"><br>
+        </div>
+
+        <div class="row10">
+            <input type="text" id="colorId" class="inputText" placeholder="Color"><br>
+        </div>
+        
+        <div class="row11">
+            <input type="text" id="feedingId" class="inputText"  placeholder="Feeding Instructions"><br>
+        </div>
+
+        <div class="btns">
+        <button   id="saveBtn" >Save</button>
+        <button  id="dltBtn">Delete</button>
+    </div>
+
+    <div class="popup" id="popId">
+        <img src="checked.jpg" alt="">
+        <h2>Thank You!</h2>
+        <p>Your details has been successfully submitted. Thanks!</p>
+        <button type="button" onclick="closePopup()">OK</button>
+    </div>
+    </div>
+
+    <footer>
+       
+        <button id="exploreButton">
+            <i class="fa-brands fa-wpexplorer"></i>
+        </button>
+       
+    </footer>
+
+    <!--Scripts-->
+    <script src="app.js"></script>
+    <script type="module"  src="customer.js" defer></script>
+    <script src="customer.js"></script>
+  
+ 
+    
+</body>
+</html>

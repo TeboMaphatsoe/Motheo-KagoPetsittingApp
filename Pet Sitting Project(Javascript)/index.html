@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="st
+    y/lesheet" href="home.css">
+    <link rel="manifest" href="/manifest.json">
+</head>
+<body>
+ 
+    <div class="container">
+        <img src="/images/Brown Abstract Pet Shop Free Logo (1).svg"  class="logo">
+       
+        <div class="text-animation">
+         <p class="typing-text">
+          <b></b>
+        </p>
+        
+        </div>
+        <br><br><br><br><br><br>
+        <div class="buttonClass">
+            
+            <button id="petOwner"><b>Pet Owner</b></button><br><br>
+             <button id="petSitter"><b>Pet Sitter & Services</b></button><br><br>
+            <button id="explore"><b>Explore</b></button>
+        </div>
+
+     
+           
+   
+    </div>
+    
+    
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="home.js"></script>
+
+<script src="app.js"></script>
+
+<script>
+    window.addEventListener('load',()=>{
+        registerHome();
+    });
+
+    async function registerHome(){
+        if('home' in navigator){
+            try{
+                await navigator
+                .home
+                .register('home.js');
+            }
+            catch(e){
+                console.log('home registration failed')
+            }
+        }
+    }
+</script>
+</html>
